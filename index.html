@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tehnical Documentation Page</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <nav id="navbar">
+                 <h3>HTML Tags</h3>
+                 <ul class="menu">
+                    <li><a class="nav-link" href="#INTRODUCTION">INTRODUCTION</a></li>
+                    <li><a class="nav-link" href="#!DOCTYPE">&lt!DOCTYPE></a></li>
+                    <li><a class="nav-link" href="#HTML">&ltHTML></a></li>
+                     <li><a class="nav-link" href="#HEAD">&ltHEAD></a></li>
+                     <li><a class="nav-link" href="#BODY">&ltBODY></a></li>
+                 </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <main id="main-doc">
+                <h1>Essential tags in HTML document</h1><br>
+
+                <section id="INTRODUCTION">
+                    <h3>INTRODUCTION</h3>
+                    <p>HTML tags are the hidden keywords within a web page that define how your web browser must format and display the content.</p>
+                    <p>Most tags must have two parts, an opening and a closing part. For example,<code> &lthtml> </code>is the opening tag and <code> &lt/html> </code> is the closing tag. Note that the closing tag has the same text as the opening tag, but has an additional forward-slash ( / ) character. I tend to interperet this as the "end" or "close" character.</p>
+                    <p>There are some tags that are an exception to this rule, and where a closing tag is not required. The <code> &ltimg> </code>  tag for showing images is one example of this.</p>
+                    <p>Each HTML file must have the essential tags for it to be valid, so that web browsers can understand it and display it correctly.</p>
+                </section> <br><hr>
+
+                 <section id="!DOCTYPE" >
+                    <h3>&lt!DOCTYPE></h3>
+                    <p>All HTML documents must start with a <code>&lt!DOCTYPE></code> declaration.</p>
+                    <p>The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.</p>
+                    <p>In HTML 5, the declaration is simple:<code> &lt!DOCTYPE html></code></p>
+                    <p><b>Tip:</b> The <code>&lt!DOCTYPE></code> declaration is NOT case sensitive.</p>
+                 </section> <br><hr>
+    
+                <section id="HTML" >
+                    <h3>&ltHTML></h3>
+                    <p>The <code> &lthtml> </code> tag represents the root of an HTML document.</p>
+                    <p>The <code> &lthtml> </code> tag is the container for all other HTML elements (except for the &lt!DOCTYPE> tag).</p>
+                    <p><b>Note:</b> You should always include the lang attribute inside the &lthtml> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.</p>
+                </section> <br><hr>
+
+                <section id="HEAD">
+                    <h3>&ltHEAD></h3>
+                    <p>The &lthead> element is a container for metadata (data about data) and is placed between the &lthtml> tag and the &ltbody> tag.</p>
+                    <p>Metadata is data about the HTML document. Metadata is not displayed.</p>
+                    <p>Metadata typically define the document title, character set, styles, scripts, and other meta information.</p>
+      
+                    <ul>The following elements can go inside the &lthead> element:
+                        <li> title (required in every HTML document)</li>
+                        <li>style</li>
+                        <li>base</li>
+                        <li>link</li>
+                        <li>meta</li>
+                        <li>script</li>
+                        <li>noscript</li>
+                    </ul>
+                </section> <br><hr>
+
+                <section id="BODY">
+                    <h3>&ltBODY></h3>
+                    <p>The &ltbody> tag defines the document's body.</p>
+                    <p>The &ltbody> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</p>
+                    <p><b>Note:</b> There can only be one &ltbody> element in an HTML document.</p>
+                </section> <br><hr>
+            </main>
+        </div>
+    </div>
+        <footer>
+            <p class="footer-ime">Powered by Kire Mitrov</p>
+            <p>Let`s work together</p>
+            <a href="https://facebook.com" target="_blank">Facebook</a>|
+            <a href="https://github.com/KireMitrov" target="_blank">GitHub</a>|
+            <a href="mailto:kire_val@yahoo.com">Send a mail</a>|
+            <a href="tel:+38970123456">Call me</a>
+        </footer> 
+</body>
+</html>
